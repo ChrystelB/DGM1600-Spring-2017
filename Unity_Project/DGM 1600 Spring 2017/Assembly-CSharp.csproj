@@ -45,7 +45,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Button.cs" />
+     <Compile Include="Assets\Operators.cs" />
      <Compile Include="Assets\Rotate.cs" />
+     <Compile Include="Assets\Variables_notes.cs" />
+     <Compile Include="Assets\move.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
