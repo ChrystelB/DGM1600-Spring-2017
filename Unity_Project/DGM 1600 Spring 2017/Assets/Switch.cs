@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class Switch : MonoBehaviour {
+public class For_loop : MonoBehaviour {
     
     void Start () {
         string light = "yellow";
