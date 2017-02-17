@@ -1,9 +1,10 @@
+/*
 Variables
 /*Write your understanding of the topic using comments and examples
 (at least 5 examples) to the instructor and describe them in your 
 own words to the best of your knowledge.Put your work to GIT. 
 Submit the GIT url to canvas.
-*/
+
 
 Variables is a nice way of saying that the class has values in it. It's a 
 way of storing information into the class, almost like the storage room in 
@@ -25,4 +26,4 @@ double = double - The double is basically a way of doubling the float.
 bool = Booleon - Booleon is a way for the operator to assign a value to the variable.
 Usually seen as a "true or false"
     booleon user = true;
-
+*/

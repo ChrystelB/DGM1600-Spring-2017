@@ -1,4 +1,4 @@
-If Statements vs Else Statements
+//If Statements vs Else Statements
 
 /*If statements
 
@@ -15,6 +15,7 @@ void TemperatureTest ()
 }
 
 */
+/*
 void TemperatureTest ()
 {
     If(HotchocolateTemperature > hotlimitTemperature)
@@ -23,8 +24,9 @@ void TemperatureTest ()
     }
     Else if()
     }
-
+*/
 /*If something is too hot, then something else needs to happen. It's helping us understand 
 that once something gets to a point, another action must be undertaken. Whether too hot, or
 too cold, or even whether the cup is about to overflow, it needs to stop and change. The "If"
 statment functions as it normally would in our English syntax.
+*/

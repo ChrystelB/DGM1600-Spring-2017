@@ -1,10 +1,11 @@
-﻿using UnityEngine;
+﻿/*
+using UnityEngine;
 using System.Collections;
 
 public class Operators : MonoBehaviour {
     public int one = 5;
     public int two = 2;
-    private float modulusReturn
+    private float modulusReturn;
 
 	// Use this for initialization
 	void Start () {
@@ -17,14 +18,14 @@ public class Operators : MonoBehaviour {
     //value after it is divded.
         Debug.Log(mod=one % two);
     //Subtraction (-) subtraction operator - Subtracts the values given for the vairables.
-        Debug.Log(one - two)
+        Debug.Log(one - two);
     //Division (/) division operator - Divides the values shown in the order written. 
-        Debug.Log(one/two)
+        Debug.Log(one/two);
     //Increment (++) increment - tells the computer to upgrade the value
     //by one (or another variable).
-        Debug.Log(one++)
+        Debug.Log(one++);
     //Multiply (*) Multplying operator - multiplies the values given for the vairables.
-        Debug.Log(one*two)
+        Debug.Log(one*two);
 	}
 	
 	// Update is called once per frame

@@ -46,8 +46,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Button.cs" />
+     <Compile Include="Assets\IfStatements_notes.cs" />
      <Compile Include="Assets\Operators.cs" />
      <Compile Include="Assets\Rotate.cs" />
+     <Compile Include="Assets\Switch.cs" />
      <Compile Include="Assets\Variables_notes.cs" />
      <Compile Include="Assets\move.cs" />
  <Reference Include="UnityEngine.UI">

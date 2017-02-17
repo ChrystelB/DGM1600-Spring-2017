@@ -15,7 +15,7 @@ public class Button : MonoBehaviour {
 		Transform tran = transform;
 		tran.position = new Vector3(0,0,moveSpeed);
 
-		if(Intput.GetKey(KeyCode.Space)){
+		if(Input.GetKey(KeyCode.Space)){
        		moveSpeed++;
         //transform.Translate(Vector3.forward * moveSpeed*Time.deltatime);
 		}
