@@ -95,9 +95,12 @@ public class ForLoop : MonoBehaviour
 	   //The Output will always account the "i" as the number one, and will thus be used in every circumstance. 
 }
 
+*/
 
+/* (The FOREACH LOOP) - The foreach loop is a little different than the others. It is probably the simplest type of loop, 
+and one that has the fewest errors. An index is not needed, because each object/element is evaluated. Strings need to be 
+used as arrays so that we can see what each element will eventually do. 
 
-(The FOREACH LOOP)
 
 
 public class ForeachLoop : MonoBehaviour 
@@ -117,3 +120,20 @@ public class ForeachLoop : MonoBehaviour
     }
 }
 */
+	
+/* As we can see, writing a foreach loop is almost exactly like an array. Here's another example to show us 
+how else we can write a foreach loop...
+
+
+public class ForeachLoop : MonoBehaviour 
+{   
+    void Start () 
+    {
+        string[] seaCreatures = { "turtle", "catfish", "trout" };
+
+        // ... Loop with the foreach keyword. foreach (string value in seaCreatures)
+        {
+            Console.WriteLine(value);
+        }
+    }
+}
