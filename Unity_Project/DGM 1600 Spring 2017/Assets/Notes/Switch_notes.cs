@@ -1,6 +1,9 @@
 /*02/16/17
 
-Switch statements: When you want to compare a single variable to a series of contestants. Simpler than adding a bunch of if-statements. Saves a lot of time and a lot less cumbersome. The script will be able to tell the character what the value is, and what to do with it. 
+Switch statements: When you want to compare a single variable to a series of
+contestants. Simpler than adding a bunch of if-statements. Saves a lot of time 
+and a lot less cumbersome. The script will be able to tell the character what 
+the value is, and what to do with it. 
 
 
 Switch (variable) - that will be compared. {
@@ -27,7 +30,13 @@ Switch (variable) - that will be compared. {
 }
 
 
-Looping: A way of repeating. Instead of writing the same thing over and over with a slight number différence, you only need to write the first and last numbers. The code will figure out the rest, especially if you put a more than or less than sign, so the computer knows when to stop. There’s the ‘while’ loop and the ‘for’ loop. The “Do” while loops always loops at least once. The “For” while loop is very useful for loops that involve counting. The “Foreach” Loop you can’t modify the components in the loop.
+Looping: A way of repeating. Instead of writing the same thing over and over
+with a slight number différence, you only need to write the first and last 
+numbers. The code will figure out the rest, especially if you put a more than
+or less than sign, so the computer knows when to stop. There’s the ‘while’ loop
+and the ‘for’ loop. The “Do” while loops always loops at least once. The “For”
+while loop is very useful for loops that involve counting. The “Foreach” Loop 
+you can’t modify the components in the loop.
 
 (The WHILE LOOP)
 
@@ -60,7 +69,10 @@ public class DoWhileLoop : MonoBehaviour
 
 
 
-(The FORLOOP)
+/* (The FORLOOP) - The For while loop is very useful for loops that involve counting. When the trigger in enacted,
+the computer knows to start or restart the loop. This type of looping includes all of the normal characteristics
+of a normal loop, including breaks, block statements, etc. In this instance, "i" will only count the numEnemies before
+the loop decides to quite. The number of "enemies" is three.
 
 public class ForLoop : MonoBehaviour
 {
@@ -75,6 +87,12 @@ public class ForLoop : MonoBehaviour
     	        Debug.Log("Creating enemy number: " + i);
 	        }
  	   }
+	   /* Output:
+	   1
+	   2
+	   3
+	   */
+	   //The Output will always account the "i" as the number one, and will thus be used in every circumstance. 
 }
 
 
