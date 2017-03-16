@@ -1,5 +1,5 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿//using UnityEngine;
+//using System.Collections;
 
 
 /* arrays are ways of storing the same type of information together.
@@ -45,7 +45,7 @@ public class Arrays : MonoBehaviour {
 
 
 //Now this part should be the actual script.
-
+/*
 public class Arrays : MonoBehaviour {
 
     public string[] friends = {"Jayson", "Debug", "Bianca","Anthony","Chrystel};

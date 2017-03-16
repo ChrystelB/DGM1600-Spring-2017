@@ -93,9 +93,6 @@ public class ForLoop : MonoBehaviour
 	   3
 	   */
 	   //The Output will always account the "i" as the number one, and will thus be used in every circumstance. 
-}
-
-*/
 
 /* (The FOREACH LOOP) - The foreach loop is a little different than the others. It is probably the simplest type of loop, 
 and one that has the fewest errors. An index is not needed, because each object/element is evaluated. Strings need to be 
@@ -137,3 +134,4 @@ public class ForeachLoop : MonoBehaviour
         }
     }
 }
+*/
