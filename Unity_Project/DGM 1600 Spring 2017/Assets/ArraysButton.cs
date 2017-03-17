@@ -3,17 +3,17 @@ using UnityEngine;
 using System.Collections;
 
 
-public class Arrays : MonoBehaviour {
+public class ArraysButton : MonoBehaviour {
 	
-	public string[] StartUp = [Trees, Bushes, Buildings];
+	public string[] StartUp = {"Trees", "Bushes", "Buildings"};
 
+	public int[] Amount = {12, 30, 6};
 
 	void Start ()
 	{
-		StartUp[Trees] = 12;
-		StartUp[Bushes] = 30;
-		StartUp[Buildings] = 6;
+		print(StartUp[0] + StartUp[2]);
 	}
+
 }
 
 /*
