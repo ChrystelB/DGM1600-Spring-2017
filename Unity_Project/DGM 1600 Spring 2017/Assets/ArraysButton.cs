@@ -14,6 +14,7 @@ public class ArraysButton : MonoBehaviour {
 		print(StartUp[0] + StartUp[2]);
 	}
 
+
 }
 
 /*

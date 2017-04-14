@@ -45,11 +45,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AddArray.cs" />
      <Compile Include="Assets\Arrays.cs" />
      <Compile Include="Assets\ArraysButton.cs" />
      <Compile Include="Assets\BeginLevel.cs" />
      <Compile Include="Assets\Button.cs" />
-     <Compile Include="Assets\Calculator.cs" />
      <Compile Include="Assets\For_loop.cs" />
      <Compile Include="Assets\Notes\Array_notes.cs" />
      <Compile Include="Assets\Notes\Calc_Num.cs" />
@@ -61,7 +61,6 @@
      <Compile Include="Assets\Rotate.cs" />
      <Compile Include="Assets\Switch.cs" />
      <Compile Include="Assets\While_loop.cs" />
-     <Compile Include="Assets\cal.cs" />
      <Compile Include="Assets\move.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
