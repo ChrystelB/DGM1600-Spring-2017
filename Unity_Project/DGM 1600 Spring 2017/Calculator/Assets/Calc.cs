@@ -1,13 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using System.Text;
 
 public class Calc : MonoBehaviour {
 
-	public InputField Value1;
-	public InputField Value2;
 	public InputField Value3;
-
+	public InputField Value1;
 	public Button yourButton;
 
 	public enum Operation {Add, Sub, Mul, Div};
@@ -44,7 +43,8 @@ public class Calc : MonoBehaviour {
 		float x = 0;
 		float y = 0;
 		float result = 0;
-		if (float.TryParse (Value1.text, out x) && float.TryParse (Value2.text, out y)) {
+		if (float.TryParse (Value1.text, out x) && float.TryParse (Value3.text, out y)) 
+		{
 			switch (currentOperation){
 			case Operation.Add:
 				result = x + y;
@@ -66,24 +66,3 @@ public class Calc : MonoBehaviour {
 		Value3.text = result.ToString();
 	}
 }
-/*
-using UnityEngine;
-using UnityEngine.UI;
-using System.Collections;
-
-public class ClickExample : MonoBehaviour
-{
-    public Button yourButton;
-
-    void Start()
-    {
-        Button btn = yourButton.GetComponent<Button>();
-        btn.onClick.AddListener(TaskOnClick);
-    }
-
-    void TaskOnClick()
-    {
-        Debug.Log("You have clicked the button!");
-    }
-}
-*/
