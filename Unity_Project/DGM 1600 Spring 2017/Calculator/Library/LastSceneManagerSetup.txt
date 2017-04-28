@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Calculator1.unity
+- path: Assets/Calculator_10Buttons.unity
   isLoaded: 1
   isActive: 1

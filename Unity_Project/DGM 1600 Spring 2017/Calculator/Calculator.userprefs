@@ -1,18 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NumberOne.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Switch.cs">
     <Files>
-      <File FileName="Assets\Calc.cs" Line="1" Column="1" />
-      <File FileName="Assets\NumberOne.cs" Line="9" Column="26" />
-      <File FileName="Assets\Clear.cs" Line="1" Column="1" />
-      <File FileName="Assets\NumberEight.cs" Line="1" Column="1" />
-      <File FileName="Assets\NumberFive.cs" Line="1" Column="1" />
-      <File FileName="Assets\NumberFour.cs" Line="1" Column="1" />
-      <File FileName="Assets\NumberNine.cs" Line="1" Column="1" />
-      <File FileName="Assets\NumberSeven.cs" Line="1" Column="1" />
-      <File FileName="Assets\NumberSix.cs" Line="1" Column="1" />
-      <File FileName="Assets\NumberThree.cs" Line="1" Column="1" />
-      <File FileName="Assets\NumberTwo.cs" Line="1" Column="1" />
+      <File FileName="Assets\CalcNew.cs" Line="10" Column="27" />
+      <File FileName="Assets\Numbers.cs" Line="15" Column="1" />
+      <File FileName="Assets\Switch.cs" Line="7" Column="31" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

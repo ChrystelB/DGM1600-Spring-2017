@@ -46,16 +46,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Calc.cs" />
+     <Compile Include="Assets\CalcNew.cs" />
      <Compile Include="Assets\Clear.cs" />
-     <Compile Include="Assets\NumberEight.cs" />
-     <Compile Include="Assets\NumberFive.cs" />
-     <Compile Include="Assets\NumberFour.cs" />
-     <Compile Include="Assets\NumberNine.cs" />
-     <Compile Include="Assets\NumberOne.cs" />
-     <Compile Include="Assets\NumberSeven.cs" />
-     <Compile Include="Assets\NumberSix.cs" />
-     <Compile Include="Assets\NumberThree.cs" />
-     <Compile Include="Assets\NumberTwo.cs" />
+     <Compile Include="Assets\Numbers.cs" />
+     <Compile Include="Assets\Switch.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
