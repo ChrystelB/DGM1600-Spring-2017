@@ -12,6 +12,7 @@ public class Numbers : MonoBehaviour {
 	}
 
 	public void OnButtonClick(){
+		
 		Value1.text += ButtonText;
 	}
 
