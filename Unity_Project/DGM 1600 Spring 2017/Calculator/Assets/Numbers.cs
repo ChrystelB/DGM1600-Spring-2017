@@ -3,9 +3,10 @@ using UnityEngine.UI;
 
 public class Numbers : MonoBehaviour {
 
-	public string ButtonText;
+	private string ButtonText;
 
 	public InputField Value1;
+
 
 	void start (){
 		ButtonText = GetComponentInChildren<Text>().text;	
