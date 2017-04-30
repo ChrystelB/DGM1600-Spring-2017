@@ -9,6 +9,8 @@ public class CalcNew : MonoBehaviour {
 
 	public InputField Value2;
 
+	public CompareEnemy campareEnemy;
+
 	public Text Value3;
 
 
@@ -31,6 +33,7 @@ public class CalcNew : MonoBehaviour {
 		
 		}
 		Value3.text = temp.ToString ();
+		compareEnemy.CheckRandomNums(result.text);
 		Clear ();
 			
 	}
