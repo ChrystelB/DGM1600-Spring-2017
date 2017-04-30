@@ -9,7 +9,7 @@ public class CalcNew : MonoBehaviour {
 
 	public InputField Value2;
 
-	public CompareEnemy campareEnemy;
+	public CompareEnemy compareEnemy;
 
 	public Text Value3;
 
@@ -33,7 +33,7 @@ public class CalcNew : MonoBehaviour {
 		
 		}
 		Value3.text = temp.ToString ();
-		compareEnemy.CheckRandomNums(result.text);
+		compareEnemy.CheckRandomNums(Value3.text);
 		Clear ();
 			
 	}

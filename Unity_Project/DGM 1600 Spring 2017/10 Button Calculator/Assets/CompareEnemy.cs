@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 using System.Collections.Generic;
 using System.Collections;
 
-public class CompareEnemy : MonoBehavior {
+public class CompareEnemy : MonoBehaviour {
 
 	public EndGame endGame;
 
@@ -18,7 +17,7 @@ public class CompareEnemy : MonoBehavior {
 			}
 		}
 		if (randomNums.Count <= 0) {
-			endGame.EndTheGame("You Win!");
+			endGame.EndTheGame("Congratulations!");
 		}
 
 	}

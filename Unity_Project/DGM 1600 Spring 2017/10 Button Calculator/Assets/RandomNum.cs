@@ -1,14 +1,15 @@
-﻿using UnityEngine;
-using UnityEngine.UI;
+﻿using System.Collections;
 using System.Collections.Generic;
-using System.Collections;
+using UnityEngine;
+using UnityEngine.UI;
 
-public class RandomNum : MonoBehavior {
+
+public class RandomNum : MonoBehaviour {
 
 	public Text textUI;
 
 	void Start (){
-		textUI = GetComponent<Text> ();
-		textUI.text = Random.Range (1,9).ToString ();
+		textUI = GetComponent<Text>();
+		textUI.text = Random.Range (1,10).ToString ();
 	}
 }
