@@ -1,7 +1,7 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{F2F91B81-0B79-2BF5-6EF6-C42B81F183BB}") = "DGM 1600 Spring 2017", "Assembly-CSharp.csproj", "{DEB83222-AC9E-63A7-DA45-D340A813DB65}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DGM 1600 Spring 2017", "Assembly-CSharp.csproj", "{DEB83222-AC9E-63A7-DA45-D340A813DB65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
